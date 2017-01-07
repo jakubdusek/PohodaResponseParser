@@ -1,0 +1,21 @@
+{
+    "name": "Hexako/PohodaResponseParser",
+    "description": "Library for parsing Pohoda import response XML",
+    "keywords": ["Pohoda", "reseponse parser", "stormware"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakub Dušek", "email": "jakub.dusek@hexako.cz"
+        }
+    ],
+    "require": {
+        "php" : "~5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "~4.8",
+        "squizlabs/php_codesniffer": "~2.7"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    }
+}
