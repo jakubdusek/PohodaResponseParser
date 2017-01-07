@@ -37,7 +37,7 @@ vendor/bin/phpunit
 [ico-build]: https://scrutinizer-ci.com/g/jakubdusek/PohodaResponseParser/badges/build.png?b=master
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/jakubdusek/PohodaResponseParser.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/jakubdusek/PohodaResponseParser.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/jakubdusek/pohoda-response-parser.svg?style=flat-square
+[ico-downloads]: https://poser.pugx.org/jakubdusek/pohoda-response-parser/downloads?format=flat-square
 
 [link-packagist]: https://packagist.org/packages/jakubdusek/pohoda-response-parser
 [link-build]: https://scrutinizer-ci.com/g/jakubdusek/PohodaResponseParser/build-status/master
