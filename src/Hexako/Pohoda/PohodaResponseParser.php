@@ -10,6 +10,17 @@ use Hexako\Exception\FileNotFoundException;
  */
 class PohodaResponseParser
 {
+
+    /**
+     * @var \SimpleXMLElement
+     */
+    protected $xml;
+
+    /**
+     * @var array
+     */
+    protected $ns = array();
+    
     /**
      * State when file was imported successfully
      */
