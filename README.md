@@ -16,8 +16,8 @@ composer require Hexako/PohodaResponseParser
 ## Usage
 
 ``` php
-$skeleton = new Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+$parser = new PohodaResponseParser('pathToFile');
+$parser->isOk();
 ```
 
 ## Rules for contributing
