@@ -1,5 +1,5 @@
 {
-    "name": "Hexako/PohodaResponseParser",
+    "name": "jakubdusek/pohoda-response-parser",
     "description": "Library for parsing Pohoda import response XML",
     "keywords": ["Pohoda", "reseponse parser", "stormware"],
     "license": "MIT",
