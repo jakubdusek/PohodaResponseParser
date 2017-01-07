@@ -34,7 +34,7 @@ class PohodaResponseParser
     public function __construct($filename)
     {
         if (!file_exists($filename)) {
-            throw new FileNotFoundException($filename);
+            throw new FileNotFoundException();
         }
         $this->xml = simplexml_load_file($filename);
         $this->ns = $this->xml->getNameSpaces(true);
