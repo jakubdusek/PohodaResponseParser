@@ -1,6 +1,6 @@
 # PohodaResponseParser
 
-[![Build Status][ico-build][link-build]
+[![Build Status][ico-build]][link-build]
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -33,14 +33,14 @@ vendor/bin/phpunit
 
 **Happy coding**!
 
-[ico-version]: https://img.shields.io/packagist/v/jakubdusek/PohodaResponseParser.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/jakubdusek/pohoda-response-parser.svg?style=flat-square
 [ico-build]: https://scrutinizer-ci.com/g/jakubdusek/PohodaResponseParser/badges/build.png?b=master
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/jakubdusek/PohodaResponseParser.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/jakubdusek/PohodaResponseParser.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/jakubdusek/PohodaResponseParser.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/jakubdusek/pohoda-response-parser.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/jakubdusek/PohodaResponseParser
+[link-packagist]: https://packagist.org/packages/jakubdusek/pohoda-response-parser
 [link-build]: https://scrutinizer-ci.com/g/jakubdusek/PohodaResponseParser/build-status/master
 [link-scrutinizer]: https://scrutinizer-ci.com/g/jakubdusek/PohodaResponseParser/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/jakubdusek/PohodaResponseParser
-[link-downloads]: https://packagist.org/packages/jakubdusek/PohodaResponseParser
+[link-downloads]: https://packagist.org/packages/jakubdusek/pohoda-response-parser
