@@ -33,14 +33,14 @@ vendor/bin/phpunit
 
 **Happy coding**!
 
-[ico-version]: https://img.shields.io/packagist/v/Hexako/PohodaResponseParser.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/Hexako/PohodaResponseParser/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/Hexako/PohodaResponseParser.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/Hexako/PohodaResponseParser.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/Hexako/PohodaResponseParser.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/jakubdusek/PohodaResponseParser.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/jakubdusek/PohodaResponseParser/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/jakubdusek/PohodaResponseParser.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/jakubdusek/PohodaResponseParser.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/jakubdusek/PohodaResponseParser.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/Hexako/PohodaResponseParser
-[link-travis]: https://travis-ci.org/Hexako/PohodaResponseParser
-[link-scrutinizer]: https://scrutinizer-ci.com/g/Hexako/PohodaResponseParser/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/Hexako/PohodaResponseParser
-[link-downloads]: https://packagist.org/packages/Hexako/PohodaResponseParser
+[link-packagist]: https://packagist.org/packages/jakubdusek/PohodaResponseParser
+[link-travis]: https://travis-ci.org/jakubdusek/PohodaResponseParser
+[link-scrutinizer]: https://scrutinizer-ci.com/g/jakubdusek/PohodaResponseParser/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/jakubdusek/PohodaResponseParser
+[link-downloads]: https://packagist.org/packages/jakubdusek/PohodaResponseParser
