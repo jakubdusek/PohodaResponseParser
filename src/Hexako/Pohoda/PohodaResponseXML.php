@@ -5,10 +5,10 @@ namespace Hexako\Pohoda;
 use Hexako\Exception\FileNotFoundException;
 
 /**
- * Class PohodaResponseParser
+ * Class PohodaResponseXML
  * @package Hexako\Pohoda
  */
-class PohodaResponseParser
+class PohodaResponseXML
 {
 
     /**
@@ -46,7 +46,14 @@ class PohodaResponseParser
      */
     public function isOk()
     {
-        $state = (string) $this->xml['state'];
-        return $state == static::STATE_OK;
+        return $this->getState() == static::STATE_OK;
+    }
+
+    /**
+     * Return state of whole file
+     * @return string
+     */
+    public function getState() {
+        return (string) $this->xml['state'];
     }
 }

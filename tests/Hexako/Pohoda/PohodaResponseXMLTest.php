@@ -13,10 +13,10 @@ class PohodaResponseParserTest extends \PHPUnit_Framework_TestCase
      */
     public function testIsOk()
     {
-        $parser = new PohodaResponseParser('./xmls/invoice_ok.xml');
+        $parser = new PohodaResponseXML('./xmls/invoice_ok.xml');
         $this->assertTrue($parser->isOk());
 
-        $parser = new PohodaResponseParser('./xmls/invoice_error.xml');
+        $parser = new PohodaResponseXML('./xmls/invoice_error.xml');
         $this->assertFalse($parser->isOk());
     }
 
@@ -26,7 +26,7 @@ class PohodaResponseParserTest extends \PHPUnit_Framework_TestCase
     public function testFileNotFound()
     {
         try {
-            new PohodaResponseParser('./xmls/doesntExist.xml');
+            new PohodaResponseXML('./xmls/doesntExist.xml');
         } catch (\Hexako\Exception\FileNotFoundException $e) {
             $this->assertEquals("File not found", $e->getMessage());
             $this->assertEquals(404, $e->getCode());

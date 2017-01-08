@@ -16,8 +16,9 @@ composer require Hexako/PohodaResponseParser
 ## Usage
 
 ``` php
-$parser = new PohodaResponseParser('pathToFile');
-$parser->isOk();
+$parser = new PohodaResponseXML('pathToFile');
+$parser->isOk(); // Return bool
+$parser->getState(); // Return string
 ```
 
 ## Rules for contributing
