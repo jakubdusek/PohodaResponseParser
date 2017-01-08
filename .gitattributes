@@ -10,3 +10,4 @@
 /.scrutinizer.yml   export-ignore
 /tests              export-ignore
 /xmls              export-ignore
+/ocular.phar              export-ignore
