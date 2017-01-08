@@ -13,4 +13,4 @@ script:
 
 after_script:
   # get scrutinizer for coverage upload
-  - php vendor/bin/ocular code-coverage:upload --format=php-clover coverage.clover
+  - vendor/bin/ocular code-coverage:upload --format=php-clover coverage.clover
