@@ -53,7 +53,8 @@ class PohodaResponseXML
      * Return state of whole file
      * @return string
      */
-    public function getState() {
+    public function getState()
+    {
         return (string) $this->xml['state'];
     }
 }
