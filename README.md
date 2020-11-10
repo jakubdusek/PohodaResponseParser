@@ -9,8 +9,8 @@
 Library for parsing Pohoda import response XML.
 ## Install via Composer
 
-``` bash
-composer require Hexako/PohodaResponseParser
+``` shell
+composer require jakubdusek/pohoda-response-parser
 ```
 
 ## Usage

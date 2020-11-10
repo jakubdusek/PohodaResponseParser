@@ -6,7 +6,7 @@ namespace Hexako\Pohoda;
  * Class PohodaResponseParserTest
  * @package Hexako\Pohoda
  */
-class PohodaResponseParserTest extends \PHPUnit_Framework_TestCase
+class PohodaResponseParserTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test if is imported XML ok or not
